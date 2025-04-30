@@ -1,0 +1,145 @@
+/* Google Font for the main heading */
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+/* Adding creamy yellow background and font to whole page */
+body {
+  background-color: #fff8dc !important; /* creamy yellow */
+  font-family: Arial, sans-serif !important;
+}
+
+/* Main heading style */
+h1.text-center {
+  font-family: 'Bubblegum Sans', cursive !important;
+  color: #3f51b5 !important; /* soft blue */
+  font-size: 48px !important;
+  text-align: center !important;
+  margin-bottom: 30px !important;
+}
+
+/* Card/panel styles */
+.panel {
+  border-color: #6cb4ee !important;
+  border-radius: 10px !important;
+}
+
+/* Header background (blue) */
+.panel-heading {
+  background-color: #6cb4ee !important;
+  color: white !important;
+  font-size: 18px !important;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+
+/* Image rounding */
+.panel-body img {
+  border-radius: 8px !important;
+}
+
+/* Adopt Button - Green */
+.btn-adopt {
+  background-color: #4CAF50 !important; /* green */
+  color: white !important;
+  font-weight: bold !important;
+  border: none !important;
+  padding: 8px 16px !important;
+  margin-top: 10px !important;
+  transition: background-color 0.3s ease !important;
+  border-radius: 5px !important;
+}
+
+/* Adopt Button Hover */
+.btn-adopt:hover {
+  background-color: #388e3c !important; /* darker green */
+  color: white !important;
+}
+
+#searchInput {
+  font-size: 16px !important;
+  padding: 10px !important;
+  border-radius: 8px !important;
+  border: 1px solid #ccc !important;
+}
+
+/* Footer styling */
+.footer {
+  margin-top: 50px !important;
+  padding: 20px 0 !important;
+  background-color: #f4eec7 !important;  /* slightly creamy */
+  font-size: 14px !important;
+  color: #444 !important;
+  border-top: 1px solid #ddd !important;
+}
+
+/* Card hover effect */
+.panel:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+  transform: scale(1.02) !important;
+  transition: all 0.3s ease-in-out !important;
+}
+
+/* Adopt button hover effect */
+.btn-adopt:hover {
+  background-color: #2e7d32 !important; /* deeper green */
+  transform: scale(1.05) !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+/* Adopt button click effect */
+.btn-adopt:active {
+  transform: scale(0.95) !important;
+}
+
+/* For smoother card animation */
+.panel {
+  transition: all 0.3s ease-in-out !important;
+}
+
+/* Breed filter dropdown styling */
+#breedFilter {
+  background-color: #4CAF50 !important;
+  color: white !important;
+  border-radius: 8px !important;
+  padding: 10px 12px !important;
+  font-size: 11px !important;
+  border: 1px solid #ccc !important;
+}
+
+/* Feedback Modal Styles */
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); 
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fffbe6;
+  padding: 20px 30px;
+  border-radius: 10px;
+  text-align: center;
+  color: #333;
+  font-size: 18px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+#closeModalBtn {
+  margin-top: 15px;
+  padding: 8px 18px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#closeModalBtn:hover {
+  background-color: #45a049;
+}
